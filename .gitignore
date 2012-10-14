@@ -2,6 +2,7 @@
 *.htm
 *.html
 *.gif
+*.c
 a.out
 bo_login.sh
 mylogin.sh
