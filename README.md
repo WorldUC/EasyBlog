@@ -6,6 +6,8 @@
 ##运行环境
 Unix、Linux/BSD或其他能运行sh脚本的环境（Windows下的Cygwin环境还未测试）。
 
+中文环境为UTF-8。
+
 依赖Wget和xloadimage。
 
 ##用法
