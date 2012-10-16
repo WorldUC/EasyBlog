@@ -19,7 +19,7 @@ edit\_blogs.sh for show attachment file on the blog.
 
 collect\_bids.sh for collecting bids of blogs.
 
-push\_urls.sh for quote of others' attachement files.  
+push\_urls.sh for quote of others' attachment files.  
 
 ##Shortcuts
 Difficult to use for normal users.
