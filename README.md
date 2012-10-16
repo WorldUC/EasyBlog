@@ -29,5 +29,5 @@ Further modifies should be conducted for summit blogs.
 ##Declaration
 Only for propose of education and research.
 
-The software use MIT BSD protocol.
+The software uses MIT BSD protocol.
 
