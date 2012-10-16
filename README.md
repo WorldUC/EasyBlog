@@ -4,9 +4,9 @@
 The scripts can be helpul for easy upload of batched blogs and attachments for education in WorldUC.
 
 ##Environment
-Unix、Linux/BSD or other system that can run sh scripts.
+Unix、Linux/BSD or other systems that can run shell scripts.
 
-UTF-8 must be setted for unicode.
+UTF-8 must be set for unicode.
 
 Wget and xloadimage are depended.
 
