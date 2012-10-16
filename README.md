@@ -1,32 +1,33 @@
-#世界大学城辅助上传脚本
+#Easy Blog Upload System for WorldUC
 -----------------------
-##目的
-方便教师在世界大学城网站上批量上传课件、日志; 也可方便转载其他老师日志附件。
+##What is it?
+The scripts can be helpul for easy upload of batched blogs and attachments for education in WorldUC.
 
-##运行环境
-Unix、Linux/BSD或其他能运行sh脚本的环境（Windows下的Cygwin环境还未测试）。
+##Environment
+Unix、Linux/BSD or other system that can run sh scripts.
 
-中文环境为UTF-8。
+UTF-8 must be setted for unicode.
 
-依赖Wget和xloadimage。
+Wget and xloadimage are depended.
 
-##用法
-login.sh 用于登录
+##Usage
+login.sh for login.
 
-push\_files.sh 用于批量上传附件（swf）文件，需要事先编辑文件newfiles.txt，其中每行由标题及文件路径组成，空格间隔。
+push\_files.sh for bulk upload of attachment files of blogs.
 
-edit\_blogs.sh 上述命令生成的网络日志中的附件没有在页面展开，这个命令把附件展示在页面上。事先需要编辑newblogs.txt，其中每行为日志id。
+edit\_blogs.sh for show attachment file on the blog.
 
-collect\_bids.sh 用于收集上述命令的日志id，事先需要下载含有所有所需日志的网页，另存为total.htm。
+collect\_bids.sh for collecting bids of blogs.
 
-push\_urls.sh  用于转载其他老师附件链接到自己日志上。需事先编辑newdirs.txt，其中每行由标题和swf文件超链接组成。链接地址可以通过collect\_bids.sh、get\_edt\_fileurl.sh等脚本结合Shell编程收集。
+push\_urls.sh for refer others' attachement files.  
 
-##缺点
-使用还显繁琐，用户界面需进一步改进。
-上传附件和展开尚需合并自动进行。
+##Shortcuts
+Difficult to use for normal users.
 
-##声明
-仅授权给在校教师教学研究使用及继续开发,不得作其他任何用途。
+Further modifies should be conducted for summit blogs.
 
-软件采用MIT BSD协议。
+##Declaration
+Only for propose of education and research.
+
+The software use MIT BSD protocol.
 
