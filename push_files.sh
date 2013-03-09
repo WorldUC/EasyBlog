@@ -38,7 +38,7 @@ awk 'BEGIN{
       system(mycmd2);
       system(mycmd3);
       system("sed -n \"/<script>openTipWindow../{s,,,; s/.,.*$//; p; q;}\" tmp-post.htm >> newblogs.txt");
-      system("sleep 45");
+      system("sleep 5");
      }' newfiles.txt
 
 clear

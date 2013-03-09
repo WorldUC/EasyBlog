@@ -20,7 +20,7 @@ awk 'BEGIN{
       mycmd2 | getline myurl;
       close(mycmd2);
       mycmd3="sh gen_edt_postfile.sh "spaceid" "itemid" "blogid;
-      mycmd4="sh post_edit.sh "blogid;
+      mycmd4="sh post_edit.sh "blogid" "spaceid;
       print mytitle > "show.txt"; 
       print "<embed src=\"http://"myurl"\" width=\"800\" height=\"600\" type=\"application/x-shockwave-flash\" play=\"true\" loop=\"true\" menu=\"true\"></embed>" >> "show.txt"; 
       close("show.txt");
