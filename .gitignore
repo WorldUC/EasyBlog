@@ -4,6 +4,7 @@
 *.gif
 *.c
 a.out
+tmp.sh
 bo_login.sh
 mylogin.sh
 edit_blogs.sh.old
