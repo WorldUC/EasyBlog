@@ -1,6 +1,7 @@
 #!/bin/sh
 
-uploaddir="/home/jxd/samba/upload"
+user=$(who am I | sed 's/ .*$//')
+uploaddir="/home/$user/samba/upload"
 
 paras_num=$#
 

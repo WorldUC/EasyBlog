@@ -2,7 +2,7 @@
 *.htm
 *.html
 *.gif
-*.c
+myreturn.c
 a.out
 tmp.sh
 bo_login.sh

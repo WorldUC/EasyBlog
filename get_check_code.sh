@@ -20,7 +20,7 @@ wget -O tmp_check_code.gif --keep-session-cookies --load-cookies cookie.txt --sa
      "www.worlduc.com/plugin/check_code.aspx"
 
 #sed -n '/CheckCode/{s/^.*	//; p;q;}' cookie.txt
-eog tmp_check_code.gif 2> /dev/null &
+feh -Z tmp_check_code.gif 2> /dev/null &
 
 echo -n Code: >&2
 read mycode

@@ -8,23 +8,23 @@ Unix、Linux/BSD or other systems that can run shell scripts.
 
 UTF-8 must be set for unicode.
 
-Wget and xloadimage are depended.
+Wget and feh are depended.
+
+A tool "myconv" should be complied by the command:
+gcc -O myconv myconv.c
+And the generated file "myconv" should be placed in ~/bin/.
 
 ##Usage
 login.sh for login.
 
-push\_files.sh for bulk upload of attachment files of blogs.
+Then you can copy your files that you want to upload in directory ~/samba/upload.
 
-edit\_blogs.sh for show attachment file on the blog.
+push\_file\_directory.sh for bulk upload of swf files.
 
-collect\_bids.sh for collecting bids of blogs.
+push\_video\_directory.sh for bulk upload of video files(flv format).
 
-push\_urls.sh for quote of others' attachment files.  
+That's OK for everything.
 
-##Shortcuts
-Difficult to use for normal users.
-
-Further modifies should be conducted for summit blogs.
 
 ##Declaration
 Only for propose of education and research.
