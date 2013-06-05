@@ -11,7 +11,9 @@ UTF-8 must be set for unicode.
 Wget and feh are depended.
 
 A tool "myconv" should be complied by the command:
-gcc -O myconv myconv.c
+
+gcc -o myconv myconv.c
+
 And the generated file "myconv" should be placed in ~/bin/.
 
 ##Usage
